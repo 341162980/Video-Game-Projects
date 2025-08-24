@@ -1,10 +1,8 @@
 In order to play the game, you must first install pygame. You can do this by typing
- the command "pip pygame RainDrop.py" in the terminal. (Try replacing "pip" with 
- "pip3" if that doesn't work.)
+ the command "python3 -m pip install pygame" in the terminal or 
+ "py -m pip install pygame".
 
-Run each file using the command "python RainDrop.py" in the terminal. (Try replacing
-"python" with "python3" if that doesn't work. You can also type the file "RainDrop1.py"
-which adds the character.
+Run each file in the terminal by using the play button in the top right corner. 
 
 The goal of the game is to move your character to avoid falling projectiles.
 
