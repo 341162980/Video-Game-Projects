@@ -1,0 +1,23 @@
+In order to run the file, you need to download pygame using the command "pip install 
+pygame" or "pip3 install pygame". To run the file, simply press the run button. A 
+pygame window should pop up with the game running. 
+
+SpaceshipDuel is a 2 player game where each player controls a spaceship. 
+
+The left player can control the ship using keys W,A,S,D which are traditional
+keyboard hotkeys which control the movement of players. The right player will
+move using the traditional arrow keys. Both ships use the "option" or "Alt" key 
+to shoot bullets. 
+
+The goal is very simple, to shoot at the other opponent and hit them as many times
+as possible. A player has won when the opponent ship loses all it's health. 
+The ships each start at 20 health points and lose 4 health points per bullet. 
+Only 3 bullets can be fired onto the screen at once to prevent spamming. Once a 
+winner is decided, the game automatically quits so you need to run the file again 
+to play again. 
+
+*********************
+Possible upgrades:
+-different themes
+-powerups spawning randomly on either SpaceshipDuel
+-ship type selections
