@@ -1,4 +1,8 @@
-In order to play the game, you must first install pygame. You can do this by typing
+In order to play the game, begin by downloading all files from github. Then,
+open up the "Rain drop" folder itself in VS code. (Don't open up the overall 
+"Video-Game-Projects" folder instead)
+
+To start playing, you must first install pygame. You can do this by typing
  the command "python3 -m pip install pygame" in the terminal or 
  "py -m pip install pygame".
 
