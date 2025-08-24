@@ -1,0 +1,23 @@
+In order to play the game, you must first install pygame. You can do this by typing
+ the command "pip pygame RainDrop.py" in the terminal. (Try replacing "pip" with 
+ "pip3" if that doesn't work.)
+
+Run each file using the command "python RainDrop.py" in the terminal. (Try replacing
+"python" with "python3" if that doesn't work. You can also type the file "RainDrop1.py"
+which adds the character.
+
+The goal of the game is to move your character to avoid falling projectiles.
+
+I call this game "EnderLife", inspired by the Enderman mob (fictional being) 
+from minecraft. Endermen are afraid of several objects in the game including water 
+from rain. Therefore, the enderman will try to the dodge rain drops in this game. 
+
+Rain drops fall slowly at the start but the game becomes more difficult as more
+rain falls more frequently. The game ends when you are hit and you can see the amount
+of time that you lasted. 
+
+***********************
+Possible upgrades:
+-change themes
+-change projectiles
+-allow character customization
