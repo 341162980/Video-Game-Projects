@@ -1,0 +1,37 @@
+In order to run the file and play the game, you need to make sure to
+have pygame installed. Run the command "pip install pygame" in the
+terminal. Make sure to replace "pip" with pip3" if it doesn't initially 
+work. 
+
+Head Soccer is a 2 player game where each player controls a soccer player
+and kicks the ball towards the other player's net. Whenever the ball
+goes in the net, the player that scored on that net gets a goal. The game
+continues until a player scores 5 goals. Whenever a point is obtained,
+players will return to the default position and the ball will bounce
+towards the player who just scored. The points, ball and player positions
+all reset when someone wins a game. 
+
+To move their players, the left player uses the WASD keys and the right
+player uses the traditional arrow keys. Both players can also kick a ball
+faster when it comes towards them. Whenever the ball collides with a 
+player, it will rebound away at a constant speed but when either player
+presses their side's "Alt" or "Option" key as the ball collides with them,
+then the ball will rebound at a much faster speed. 
+
+The ball moves based on where it hits player, not the angle it's coming 
+at. For example, the ball bounces upwards if it hits top of player's 
+hitbox and bounces downwards if it hits the bottom of a player's hitbox. 
+Player hitboxes may be a little off so sometimes, it may look like the 
+player has not touched the ball while it has. Also, the player can
+only deflect the ball from the front, not the back. 
+
+When the game is first run, both players will be able to select their 
+character from a list of displayed avatars. Once a game finishes, the 
+window will close but you can always rerun the file to play again. 
+
+************************
+Potential Updates:
+    -add different modes: timing, golden goal,   1v1, 2v2
+    -add power-ups
+    -add sound
+    -add net graphic
