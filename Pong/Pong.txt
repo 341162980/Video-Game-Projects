@@ -1,0 +1,34 @@
+In order to play the game, begin by downloading all files from github. Then,
+open up the "Pong" folder itself in VS code. (Don't open up the overall 
+"Video-Game-Projects" folder instead)
+
+To start playing, you must first install pygame. You can do this by typing
+ the command "python3 -m pip install pygame" in the terminal or 
+ "py -m pip install pygame".
+
+Run the "Pong.py"  file in the terminal by using the play button in 
+the top right corner. Once the game is run, a window will pop up with the game.
+
+Pong is a 2 player game where each player controls a paddle (rectangle)
+and bounces a ball back and forth between each other. Whenever the ball
+goes out beyond the left or right side of the screen, the player on 
+the opposite side of the one the ball went out on gets a point. The game
+continues until a player scores 5 points. Whenever a point is obtained,
+players will return to the default position and the ball will bounce
+towards the player who just gained a point. The points and player
+positions all reset when someone wins a game. 
+
+To move their paddles, the left player uses the "W" and "S" key with "W"
+moving the left paddle up and "S" moving it down. The right player uses
+the traditional up and down arrow keys. 
+
+The ball moves based on where it hits paddle, not the angle it's coming 
+at. For example, the ball bounces upwards if it hits top of paddle and
+bounces downwards if it hits the bottom of a paddle
+
+***********************
+Potential Updates:
+-press any key to begin
+-add sound
+
+    
