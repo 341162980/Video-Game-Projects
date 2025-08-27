@@ -1,0 +1,58 @@
+In order to play the game, begin by downloading all files from github. Then,
+open up the "Racing_Game" folder itself in VS code. (Don't open up the overall 
+"Video-Game-Projects" folder instead)
+
+To start playing, you must first install pygame. You can do this by typing
+ the command "python3 -m pip install pygame" in the terminal or 
+ "py -m pip install pygame".
+
+Run the "Racing.py"  file in the terminal by using the play button in 
+the top right corner. Once the game is run, a window will pop up with the game.
+ 
+"KACHOOOWWW" is a single player racing game where you represent a car and
+race against a computer controlled car. The player (you) will move using
+the arrow keys ("up" for gas/going forward, "left" for turning left, 
+"right" for turning right, "down" for going backwards). Please keep in 
+mind that you cannot drive as quick going backward as going forward. 
+
+Your goal is to reach the finish line before the computer car in each 
+level. The level is indicated in the bottom right corner along with the
+time since the race has started and your car's current velocity. 
+You will start at level 1 and each level, the speed of the computer car
+will increase. If you win in all 10 levels, then you have beat the game.
+Else, if the computer car wins a single level, then you will be sent back
+to level 1.
+
+In each level, you only start once you press any key. You are not allowed
+to move backwards into the finish line and once a car touches the finish
+line from the correct side, then that car will instantly win. 
+
+The player car can be slowed down by colliding into the border walls. 
+When the player hits the wall, it will be bounced back at the same 
+velocity. Be aware that the wall collision with the car isn't exactly
+pixel perfect and there will be cases where it may bounce you off even 
+if you weren't close to the wall. In those cases, try driving around 
+the area you bounced off of. 
+
+Please don't use the computer car as a reference for where the player car
+can travel. Since the computer car has a predefined path that it follows
+in every level, it will never collide with the border. 
+
+Since both cars are quite thick, neither car is able to collide with each
+other due to how thin the track is. And since the computer car will 
+always be flawless (as in it never  collides or slows down), the player
+car will have a faster top speed then the computer car. 
+
+You can also select your car's color along with the opponent's color before 
+the levels begin. Please be aware that you can only select car colors when the 
+file is first run. 
+
+************************
+Possible Updates:
+
+- add "you win!" message after each level is completed
+- give option to set level
+- add power ups 
+- add sound effects
+- change background every few levels
+
