@@ -1,7 +1,13 @@
-In order to run the file and play the game, you need to make sure to
-have pygame installed. Run the command "pip install pygame" in the
-terminal. Make sure to replace "pip" with pip3" if it doesn't initially 
-work. 
+In order to play the game, begin by downloading all files from github. Then,
+open up the "HeadSoccer" folder itself in VS code. (Don't open up the overall 
+"Video-Game-Projects" folder instead)
+
+To start playing, you must first install pygame. You can do this by typing
+ the command "python3 -m pip install pygame" in the terminal or 
+ "py -m pip install pygame".
+
+Run the "Headsoccer.py"  file in the terminal by using the play button in 
+the top right corner. Once the game is run, a window will pop up with the game.
 
 Head Soccer is a 2 player game where each player controls a soccer player
 and kicks the ball towards the other player's net. Whenever the ball
