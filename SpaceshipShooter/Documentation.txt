@@ -1,0 +1,45 @@
+In order to play the game, begin by downloading all files from github. Then,
+open up the "SpaceshipDuel" folder itself in VS code. (Don't open up the overall 
+"Video-Game-Projects" folder instead)
+
+To start playing, you must first install pygame. You can do this by typing
+ the command "python3 -m pip install pygame" in the terminal or 
+ "py -m pip install pygame".
+
+Run the "SpaceshipDuel.py"  file in the terminal by using the play button in 
+the top right corner. Once the game is run, a window will pop up with the game.
+
+This Spaceship Shooters game is based on the classic arcade game Space Invaders.
+
+A player will play as a space ship and their goal is to survive as long as possible
+by shooting enemy players and dodging enemies' bullets. 
+
+In this version, you (the player) will be a big yellow spaceship. You will move using
+keyboard arrow keys and you can shoot bullets using the space bar. You will also see
+a health bar for the spaceship which decreases when you get hit. Once that health bar
+runs out (visually, it will be all red), then you have lost. When you lose, a 
+message will inform you of this occurrence, then, you will automatically exit the game. 
+You can also exit the game at any time by closing the browser.
+
+In the top right corner, you will see "level". Levels will increase as you kill more
+enemies and more enemies will spawn in per level. In addition, you also see "lives" in 
+the top right corner. This count is for when enemies simply fly past you off the 
+screen. When an enemy flies past you, you can no longer kill them so you "lose a life". 
+Losing all 5 lives is another way to lose the game. So as long as you don't run out 
+of health or you still have more than 0 lives, then you can keep playing. 
+
+In terms of enemies, they will spawn randomly across the top of the screen and slowly 
+move towards you. Occasionally, they will shoot lasers which will hurt you and 
+eventually kill you. Luckily, the player only needs to hit the enemies once in order
+to kill them. There are 3 colored enemy ships: green, red and blue. 
+
+Good luck and have fun!
+
+*************************
+Possible future upgrades:
+
+-better ship designs
+-health for enemies
+-powerups (speed increase, bullet speed increase, more hp, more lives)
+-different levels (faster enemies, hardcore mode)
+-change of theme
